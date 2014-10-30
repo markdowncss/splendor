@@ -11,7 +11,7 @@ var gulp        = require('gulp'),
 
 gulp.task('md', function() {
   return gulp.src('splendor.md')
-    .pipe(md())
+    .pipe(md({ html: true }))
     .pipe(name('-markdown.html'))
     .pipe(gulp.dest('example'));
 });
