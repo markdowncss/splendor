@@ -2,7 +2,7 @@
 @import "furtive-typescale";
 @import "furtive-responsive-utils";
 
-@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300italic,300);
 
 html {
   font-size: 18px;
@@ -11,7 +11,7 @@ html {
 
 body {
   color: #444;
-  font-family: 'Libre Baskerville', Georgia, serif;
+  font-family: 'Merriweather', Georgia, serif;
   margin: 0;
   max-width: 100%;
 }
@@ -42,15 +42,17 @@ blockquote p {
 li {
   margin-left: 2rem;
 }
-/*  === End gross hack */
 
+/* Counteract the specificity of the gross *:not() chain. */
 h1 {
-  padding: 3rem 0;
+  padding: 4rem 0 !important;
 }
+/*  === End gross hack */
 
 p {
   color: #555;
   height: auto;
+  line-height: 1.45;
 }
 
 pre, code {
@@ -62,4 +64,15 @@ pre {
   font-size: .8rem;
   overflow-x: scroll;
   padding: 1.125em;
+}
+
+a,
+a:visited {
+  color: #3498db;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #2980b9;
 }
