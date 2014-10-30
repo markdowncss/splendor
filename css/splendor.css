@@ -165,6 +165,7 @@ p,
 *:not(div):not(img):not(body):not(html):not(li):not(blockquote):not(p) {
   margin: 1rem auto 1rem;
   max-width: 36rem;
+  padding: .25rem;
 }
 
 div {
@@ -180,6 +181,10 @@ blockquote p {
   font-style: italic;
   margin: 1rem auto 1rem;
   max-width: 48rem;
+}
+
+li {
+  margin-left: 2rem;
 }
 
 /*  === End gross hack */
