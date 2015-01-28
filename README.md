@@ -1,8 +1,6 @@
 # Splendor
 
-_Currently under development._
-
-A markdown theme that is absolutely splendid.
+A [markdown theme](https://markdowncss.github.io) that is absolutely splendid.
 
 ## Installation
 
