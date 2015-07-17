@@ -1,6 +1,6 @@
 {
   "name": "markdown-splendor",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A markdown CSS theme.",
   "main": "gulpfile.js",
   "scripts": {
@@ -26,15 +26,17 @@
     "furtive-print": "0.0.1",
     "furtive-responsive-utils": "0.0.1",
     "furtive-typescale": "0.0.4",
-    "gulp": "^3.8.9",
-    "gulp-htmlincluder": "^0.1.0",
-    "gulp-remarkable": "0.0.5",
-    "gulp-rename": "^1.2.0",
-    "gulp-rework": "^1.0.2",
-    "gulp-size": "^1.1.0",
     "rework-class-prefix": "0.0.2",
     "rework-custom-media": "^0.2.0",
     "rework-npm": "^1.0.0",
     "rework-vars": "^3.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-htmlincluder": "^0.1.0",
+    "gulp-remarkable": "^1.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-rework": "^1.0.3",
+    "gulp-size": "^1.2.3"
   }
 }
