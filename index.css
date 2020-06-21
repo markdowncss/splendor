@@ -18,7 +18,7 @@ body {
 
 /* === A bit of a gross hack so we can have bleeding divs/blockquotes. */
 p,
-*:not(div):not(img):not(body):not(html):not(li):not(blockquote):not(p) {
+*:not(div):not(hr):not(img):not(body):not(html):not(li):not(blockquote):not(p) {
   margin: 1rem auto 1rem;
   max-width: 36rem;
   padding: .25rem;
